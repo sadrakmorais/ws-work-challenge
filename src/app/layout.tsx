@@ -3,13 +3,13 @@ import { Roboto, Raleway } from "next/font/google";
 import "./globals.css";
 import "react-loading-skeleton/dist/skeleton.css";
 
-export const roboto = Roboto({
+const roboto = Roboto({
   weight: ["400", "500", "700"],
   subsets: ["latin"],
   variable: "--font-roboto",
 });
 
-export const raleway = Raleway({
+const raleway = Raleway({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-raleway",
