@@ -1,0 +1,17 @@
+export const brands = [
+  { id: 1, name: "Toyota" },
+  { id: 2, name: "Ford" },
+  { id: 3, name: "Chevrolet" },
+  { id: 4, name: "Honda" },
+  { id: 5, name: "Volkswagen" },
+  { id: 6, name: "BMW" },
+  { id: 7, name: "Mercedes-Benz" },
+  { id: 8, name: "Audi" },
+  { id: 9, name: "Hyundai" },
+  { id: 10, name: "Nissan" },
+  { id: 11, name: "Kia" },
+  { id: 12, name: "Volvo" },
+  { id: 13, name: "Tesla" },
+  { id: 14, name: "Ferrari" },
+  { id: 15, name: "Porsche" },
+];
