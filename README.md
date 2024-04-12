@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Challeng WS WORK
 
-## Getting Started
+Desafio proposto como parte do processo seletivo para vaga de desenvolvedor front end ypescript
 
-First, run the development server:
+## O Desafio
+
+1. Crie uma aplicação React que exibe uma listagem de veículos, agrupada por marcas. O
+   formato de JSON que você irá consumir é o da(s) url(s) abaixo, apresente da maneira que
+   você achar mais apropriada, justifique as decisões tomadas:
+   https://wswork.com.br/cars_by_brand.json
+   https://wswork.com.br/cars.json
+2. Crie um componente para a sua listagem de veículos implementada acima, crie uma
+   documentação de uso deste componente e apresente pra gente como se fossemos um
+   outro programador que irá implementar esse componente em outra tela.
+3. Crie um formulário que faça a persistência de um novo carro, faça da maneira que achar
+   mais apropriado.
+4. Esse passo não é obrigatório, mas se você hospedar e mandar o link da aplicação
+   funcionando (Heroku, Aws, etc) será um diferencial.
+
+## Rodando localmente
+
+Clone o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/sadrakmorais/ws-work-challenge.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale as dependências
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Inicie a branch
 
-## Learn More
+```bash
+  yarn run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Ou usando o NPM:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+## Próximas melhorias
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Adicionar filtro por marca;
+- [ ] Adicionar filtro por número de portas;
+- [ ] Adicionar Organização por valores;
+- [ ] Adicionar Organização por ordem alfabética;
+- [ ] Adicionar Organização por ordem de postagem;
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Stack utilizada
+
+**Front-end:** TypeScrip,React,Next
+
+## Autor
+
+- [@sadrakmorais](https://github.com/sadrakmorais)
